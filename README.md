@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="OpenRouter Account Factory" width="760">
+<img src="assets/banner.png" alt="OpenRouter Account Factory" width="760">
 
-<img src="assets/logo.svg" alt="logo" width="92">
+<img src="assets/logo.png" alt="logo" width="92">
 
 # OpenRouter Account Factory
 
