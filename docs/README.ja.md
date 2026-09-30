@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="../assets/banner.svg" alt="OpenRouter Account Factory" width="760">
+
+<img src="../assets/logo.svg" alt="logo" width="92">
+
 # OpenRouter Account Factory
 
 **コマンド1つで OpenRouter アカウントをエンドツーエンドで作成・検証 —— 登録、メール認証、オンボーディング、APIキー発行まで。**
@@ -128,6 +132,11 @@ node src/index.mjs --cdp "$(curl -s http://127.0.0.1:9222/json/version | jq -r .
 
 ```
 openrouter-account-factory/
+├── assets/
+│   ├── logo.svg                # app icon / avatar
+│   ├── logo.png
+│   ├── banner.svg              # repo banner
+│   └── banner.png
 ├── src/
 │   └── index.mjs                 # CLI 本体 + CDP クライアント（依存ゼロ）
 ├── docs/

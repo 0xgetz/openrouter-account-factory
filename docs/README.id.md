@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="../assets/banner.svg" alt="OpenRouter Account Factory" width="760">
+
+<img src="../assets/logo.svg" alt="logo" width="92">
+
 # OpenRouter Account Factory
 
 **Buat dan verifikasi akun OpenRouter secara end-to-end — pendaftaran, verifikasi email, onboarding, dan pembuatan API key — lewat satu perintah.**
@@ -128,6 +132,11 @@ Contoh halaman yang mudah dibaca tersedia di `docs/sample-output.html`.
 
 ```
 openrouter-account-factory/
+├── assets/
+│   ├── logo.svg                # app icon / avatar
+│   ├── logo.png
+│   ├── banner.svg              # repo banner
+│   └── banner.png
 ├── src/
 │   └── index.mjs                 # seluruh CLI + klien CDP (tanpa dependency)
 ├── docs/

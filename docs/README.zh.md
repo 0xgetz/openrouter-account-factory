@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="../assets/banner.svg" alt="OpenRouter Account Factory" width="760">
+
+<img src="../assets/logo.svg" alt="logo" width="92">
+
 # OpenRouter Account Factory
 
 **一条命令即可端到端创建并验证 OpenRouter 账号 —— 注册、邮箱验证、新手引导与 API 密钥发放。**
@@ -127,6 +131,11 @@ node src/index.mjs --cdp "$(curl -s http://127.0.0.1:9222/json/version | jq -r .
 
 ```
 openrouter-account-factory/
+├── assets/
+│   ├── logo.svg                # app icon / avatar
+│   ├── logo.png
+│   ├── banner.svg              # repo banner
+│   └── banner.png
 ├── src/
 │   └── index.mjs                 # 整个 CLI + CDP 客户端（零依赖）
 ├── docs/

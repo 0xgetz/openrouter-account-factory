@@ -1,0 +1,53 @@
+<svg width="1280" height="400" viewBox="0 0 1280 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OpenRouter Account Factory banner">
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B0F17"/>
+      <stop offset="1" stop-color="#141B2E"/>
+    </linearGradient>
+    <linearGradient id="bring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="bbolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="bnode" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="btext" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#A5B4FC"/>
+    </linearGradient>
+    <filter id="bglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="400" rx="32" fill="url(#bbg)"/>
+  <rect x="4" y="4" width="1272" height="392" rx="30" stroke="#1E2836" stroke-width="3"/>
+
+  <!-- mark -->
+  <g transform="translate(70,66)">
+    <rect width="268" height="268" rx="60" fill="#0E141D" stroke="#1E2836" stroke-width="3"/>
+    <circle cx="134" cy="134" r="84" stroke="url(#bring)" stroke-width="7"/>
+    <circle cx="134" cy="134" r="62" stroke="#233047" stroke-width="4" stroke-dasharray="3 10" stroke-linecap="round"/>
+    <circle cx="134" cy="50" r="13" fill="url(#bnode)" filter="url(#bglow)"/>
+    <circle cx="207" cy="176" r="10" fill="#A78BFA"/>
+    <circle cx="61" cy="176" r="10" fill="#22D3EE"/>
+    <path d="M143 78 L100 148 H129 L120 198 L170 122 H139 Z" fill="url(#bbolt)" stroke="#7C3AED" stroke-width="5" stroke-linejoin="round" filter="url(#bglow)"/>
+    <rect x="72" y="206" width="22" height="30" rx="5" fill="#334155"/>
+    <rect x="102" y="192" width="22" height="44" rx="5" fill="#3F4C63"/>
+    <rect x="132" y="206" width="22" height="30" rx="5" fill="#334155"/>
+    <rect x="64" y="242" width="140" height="11" rx="5.5" fill="url(#bring)"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="392" y="196" font-family="ui-sans-serif,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="78" font-weight="800" fill="url(#btext)">OpenRouter</text>
+  <text x="392" y="278" font-family="ui-sans-serif,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="url(#bring)">Account Factory</text>
+
+  <text x="70" y="376" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="22" fill="#64748B">zero-dependency CLI  ·  CDP  ·  temp-mail  ·  end-to-end</text>
+</svg>

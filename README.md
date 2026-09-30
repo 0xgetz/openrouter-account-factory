@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/banner.svg" alt="OpenRouter Account Factory" width="760">
+
+<img src="assets/logo.svg" alt="logo" width="92">
+
 # OpenRouter Account Factory
 
 **Create and verify OpenRouter accounts end-to-end — signup, email verification, onboarding and API-key provisioning — from a single command.**
@@ -146,6 +150,11 @@ An example human-readable page is included in `docs/sample-output.html`.
 
 ```
 openrouter-account-factory/
+├── assets/
+│   ├── logo.svg                # app icon / avatar
+│   ├── logo.png
+│   ├── banner.svg              # repo banner
+│   └── banner.png
 ├── src/
 │   └── index.mjs                 # the entire CLI + CDP client (zero deps)
 ├── docs/
