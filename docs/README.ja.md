@@ -4,7 +4,7 @@
 
 **コマンド1つで OpenRouter アカウントをエンドツーエンドで作成・検証 —— 登録、メール認証、オンボーディング、APIキー発行まで。**
 
-[![CI](https://github.com/0xgetz/openrouter-account-factory/actions/workflows/ci.yml/badge.svg)](https://github.com/0xgetz/openrouter-account-factory/actions/workflows/ci.yml)
+[![status](https://img.shields.io/badge/status-active-success.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](../package.json)
@@ -138,7 +138,6 @@ openrouter-account-factory/
 │   ├── ARCHITECTURE.md
 │   └── sample-output.html
 ├── .github/
-│   ├── workflows/ci.yml
 │   └── ISSUE_TEMPLATE/
 ├── package.json
 ├── LICENSE
