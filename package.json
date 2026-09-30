@@ -1,0 +1,52 @@
+{
+  "name": "openrouter-account-factory",
+  "version": "1.0.0",
+  "description": "Automated, dependency-free Node.js CLI that creates and verifies OpenRouter accounts end-to-end using Zenvex temporary email addresses, driven through the Chrome DevTools Protocol.",
+  "type": "module",
+  "bin": {
+    "openrouter-account-factory": "src/index.mjs",
+    "oraf": "src/index.mjs"
+  },
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "check": "node --check src/index.mjs"
+  },
+  "keywords": [
+    "openrouter",
+    "automation",
+    "cdp",
+    "chrome-devtools-protocol",
+    "browser-automation",
+    "temp-mail",
+    "zenvex",
+    "cli",
+    "api-key",
+    "nodejs",
+    "headless"
+  ],
+  "author": "0xgetz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xgetz/openrouter-account-factory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xgetz/openrouter-account-factory/issues"
+  },
+  "homepage": "https://github.com/0xgetz/openrouter-account-factory#readme",
+  "funding": [],
+  "dependencies": {},
+  "devDependencies": {}
+}

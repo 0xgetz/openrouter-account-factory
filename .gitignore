@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / coverage
+dist/
+coverage/
+*.tsbuildinfo
+
+# Results and secrets (never commit generated accounts or keys)
+openrouter_accounts.jsonl
+openrouter_accounts.json
+openrouter_accounts.txt
+*.jsonl
+!package.json
+.env
+.env.*
+*.key
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
